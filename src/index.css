@@ -411,6 +411,7 @@ h5 {
   }
 }
 
+
 @media screen and (min-width: 375px) {
   .grid-hero {
     padding: 1rem;
@@ -429,8 +430,8 @@ h5 {
   }
 }
 @media screen and (min-width: 360px) {
-  .cont{
-    margin-left: 40px;
+  .cont {
+    margin-left: 15px;
   }
 }
 
@@ -449,6 +450,12 @@ h5 {
   }
   .hero-image {
     width: 200px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .hero-image {
+    margin-left: 25%;
   }
 }
 
