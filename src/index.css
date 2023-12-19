@@ -423,14 +423,22 @@ h5 {
     font-size: 18px;
   }
 }
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
+}
+@media screen and (max-width: 428px) {
   .cont {
-    margin-left: 20px;
+    margin: 1.5rem;
   }
 }
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 414px) {
   .cont {
-    margin-left: 15px;
+    margin-left: -10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .cont {
+    margin: 2rem;
   }
   .typing-text {
     overflow: hidden;
