@@ -25,16 +25,12 @@ const About = () => {
               development.
             </p>
             <div className="flex">
-              <button className="btn1">
-                <a href="https://drive.google.com/file/d/1-02QAdroFYL1uopMcao7RZuTVAMnamvG/view?usp=sharing">
-                  View CV
-                </a>
-              </button>
-              <button className="btn1">
-                <a href="https://drive.google.com/file/d/1-02QAdroFYL1uopMcao7RZuTVAMnamvG/view?usp=sharing">
-                  Download CV
-                </a>
-              </button>
+              <a href="images/CV.pdf" view class="btn">
+                View CV
+              </a>
+              <a href="images/CV.pdf" download class="btn">
+                Download CV
+              </a>
             </div>
           </div>
         </div>
