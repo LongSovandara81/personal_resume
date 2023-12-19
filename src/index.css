@@ -438,7 +438,7 @@ h5 {
 
 @media screen and (max-width: 360px) {
   .cont {
-    margin: 2rem;
+    margin: 4rem;
   }
   .typing-text {
     overflow: hidden;
